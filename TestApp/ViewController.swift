@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func go(_ sender: Any) {
+        self.performSegue(withIdentifier: "go", sender: self)
+    }
+    
 }
 
